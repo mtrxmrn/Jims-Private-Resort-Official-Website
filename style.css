@@ -1,0 +1,462 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+}
+/*Logo , Navigation*/                                      /*start section one */
+
+/* background image of navigation and logo*/
+#section {
+    width: 100%;
+    min-height:450px;
+    background-image: linear-gradient(rgba(0,30,0,0.7),rgba(0,30,0,0.7)),url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+/* background image of navigation and logo*/
+
+/* jims logo */
+
+.jims-logo  > a{
+    text-decoration: none;  
+    color: white;
+    position: absolute;
+    top: 2em;
+    left: 11.55em;
+    font-size: 48px;
+}
+/* jims logo */
+
+
+/* this is the navigation */
+
+/*register and login css */
+#register {
+    position: absolute;
+    top: 12px;
+  
+}
+#register > ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: flex-end;
+    width: 90em;
+}
+#register #register-ul > li {
+    margin-left: 3em;
+}
+#register #register-ul > li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 5px 15px;
+}
+#register #register-ul > li:hover a{
+   background-color: #fff;
+   color: black;
+}
+.sign-in-with-fb{
+    border-style: none;
+    background-color: blue;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right:5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.sign-in-with-gmail{
+    border-style: none;
+    background-color: red;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right:5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+/*register and login css */
+
+/* Home, Contact, Information, About */
+#navigation {
+    position: absolute;
+    top: 15em;
+    left: 17em;
+}
+#navigation > ul {
+    list-style: none;
+    display: flex;
+}
+
+#navigation #unordered-list > li {
+    display: block;
+    font-size: 25px;
+    margin-left: 5em; 
+}
+#navigation #unordered-list > li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px;   
+}
+#navigation #unordered-list > li:hover a {
+    border-bottom: 2px solid red;
+    transition-duration: 1s;
+}
+
+.icon-responsive {
+    display: none;
+}
+
+/* Home, Contact, Information, About */
+
+/* /*Logo , Navigation */                           /* end section one*/
+                
+/* RENTAL */
+#Rental-view {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.Rental-header {
+    margin-top: 1em;
+    font-size: 45px;
+}
+.Rental-smallheader {
+    color: rgba(0, 30, 0, 0.459)
+}
+
+.Rental-desc {
+   font-family: 'Poppins', sans-serif;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 1em;
+} 
+.Rental-option {
+    background-color: rgba(255, 192, 203, 0.425);
+    padding: 15px;
+    text-align: center;
+    width: 293px;
+    height: 120px;
+}
+.Rental-option:hover {
+    box-shadow: 1px 1px 15px gray;
+}
+.Rental-option > p {
+    color: rgba(0, 0, 0, 0.445);
+}
+/* RENTAL */
+
+#local-header {
+    margin-top: 8em;
+    margin-left: 38em;
+    font-family: 'Poppins', sans-serif;
+}
+.local-title {
+    margin-left: 1.45em;
+}
+.local-heder-desc {
+    color: rgba(0, 0, 0, 0.445);
+}
+#local-campus {
+    margin-left: -15px;
+    position: relative;
+    width: 0px;
+    font-family: 'Poppins', sans-serif; 
+}
+#local-campus > img {
+    margin-left: 32.45em;
+    border-radius: 50px;
+    width: 500px;
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.322);
+    border-radius: 50px;
+    width: 500px;
+    display: block;
+    left: 32.44em;
+    top: 1px;
+    height: 577px;
+    visibility: hidden;
+}
+#local-campus:hover .overlay {
+    visibility: visible;
+}
+
+.overlay > h1 {
+    text-align: center;
+    position: absolute;
+    left: 5.45em;
+    top: 0;
+    color: #fff;
+    text-shadow: 1px 1px 10px black;
+}
+#local-campus:hover  .local-desc {
+    top: 7em;
+    transition-duration:1s;
+}
+/* RENTAL */
+/* Picture of faciliries CSS */
+#Picture .Picture-header {
+    text-align: center;
+    margin-top: 3em;
+    font-family: 'Poppins', sans-serif; 
+}
+#Picture .picture-desc{
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    color: rgba(0, 30, 0, 0.459);
+}
+
+#picture-image{
+    display: flex;
+    margin-top: 1em;
+    padding: 5px;
+    justify-content: space-around;
+}
+#Picture .images {
+    font-family: 'Poppins', sans-serif; 
+}
+#picture-image .images-picture {
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+} 
+#picture-image  .image-desc {
+    text-align: center;
+    padding: 5px;
+}
+#picture-image .image-header{ 
+    text-align: center;
+}
+/* Picture of faciliries CSS */
+
+#About {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 6em; 
+}
+#About > .About-desc {
+    text-align: center;
+    width: 600px;
+    margin: auto auto; 
+    color:rgba(14, 12, 12, 0.452)
+}
+
+
+#icon {
+    display: flex;
+    margin-top: 3em;
+    padding: 0 0 5em 0;
+    justify-content: center;
+    font-size: 20px;
+}
+.icons {
+    padding: 0 15px;
+}
+
+.one {
+    color: blue;
+}
+.two {
+    color: lightblue
+}
+.three {
+  color: orange;
+}
+
+
+ /* this is the css form (Sign-in) style */
+ #background-login {
+    width: 100%;
+    min-height:720px;
+    font-family: 'Roboto', sans-serif;
+ }
+ #Sign-in {
+    font-family: 'Roboto', sans-serif;
+ }
+#login-parent {
+    color: black;
+   display: block;
+   text-align: center;
+   padding: 12px;
+   border: 1px solid black;
+   border-radius: 10px;
+   width: 40%;
+   height: 600px;
+   transform: translate(29em, 3em);
+}
+#section-2  {
+    margin-top: 26px;
+    padding: 25px 0 0 25px;
+}
+.sign {
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+}
+.login-button {
+    padding: 10px;
+    width: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign-in-with-fb {
+    border-radius: 120px;
+    padding: 10px;
+}
+.sign-in-with-gmail {
+    border-radius: 120px;
+    padding: 10px;
+}
+ /* this is the css form (Sig in) style */
+
+/* Contact CSS style */
+.Contact-header {
+    text-align:center;
+    margin-top: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+#contact-parent {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+.pix-parent{
+    display:flex;
+    flex-direction: column;
+    border-style:none;
+    box-shadow: 0px 0px 5px;
+    width:250px;
+    padding:10px;   
+    align-items: center;
+}
+.pix {
+    width: 100px;
+    height: 100px;
+}
+.topic{
+    font-weight: bold;
+
+}
+.item{
+    color: grey;
+}
+/* Contact CSS style */
+             
+          
+
+/*/////////////////////////////////////////////////////////Responsive\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+@media (max-width:700px) and (min-width: 388px){
+    #section {
+        width: 100%;
+    }
+    .jims-logo  > a{
+        text-decoration: none;  
+        color: white;
+        position: absolute;
+        top: 0em;
+        left:35px;
+        font-size: 45px;
+    }
+
+#navigation {
+    position: absolute;
+    background-color: #f44336;
+    min-height: 54.73vh;
+    padding-top: 5px;
+    top: 0em;
+    left: 20em;
+    display: none;
+    transition: 1s;
+}
+
+#navigation > ul {
+    list-style: none;
+    display: flex; 
+    flex-direction: column;
+}
+#navigation #unordered-list > li {
+    display: block;
+    font-size: 15px;
+    margin-left: 0em;
+}
+
+
+}
+/*/////////////////////////////////////////////////////////Responsive\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+/* admin page */
+.adm-container{
+    background-color: aqua;
+    width: 50%;
+    height: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.adm-header{
+    background-color: red;
+    width: 100%;
+    height: 30%;
+}
+
+.adm-tools{
+    background-color: pink;
+    width: 20%;
+    height: 70%;
+    float:left;
+}
+
+.adm-option{
+    font-size: 32px;
+    color:darkred;
+}
+
+.adm-option:hover{
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+}
+
+.adm-secondpage{
+    background-color: blue;
+    height: 70%;
+}
+/* admin page */
+
+/*Book Now Page*/
+    
+.book-now-container{
+    background-color: black;
+    height: 1000px;
+    width: 1000px;
+}
+
+/*Book Now Page*/
+
+
+
+
+
+
